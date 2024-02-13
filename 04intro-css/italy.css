@@ -1,0 +1,119 @@
+body {
+    font-family: 'Vesper Libre', serif; 
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* Header Stuff Here */
+header {
+    background-color: #A30000;
+    padding: 1rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: white;
+}
+header p {
+    margin: 0;
+    color: white;
+    letter-spacing: .5px;
+}
+
+/* nav stuff goes here */
+nav {
+    background-color: #FFFFAD;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0; 
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #A30000;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color: #332E30;
+    color: white;
+}
+nav a:hover {
+    color: white;
+}
+
+
+/* stuff for the main */
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+    color: #6C6581;
+}
+
+main h2 {
+    color: #332E30;
+    margin-bottom: .2rem;
+}
+
+main p {
+    color: #332E30;
+    margin: 0 0 .3rem 0;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    background-color: #A30000;
+    color: white;
+}
+
+main dl dt {
+    color: #6C6581;
+    font-weight: 700;
+}
+main dl dd {
+    color: #332E30;
+    font-size: .9rem;
+}
+
+main ul {
+    list-style-type: circle
+}
+main li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main address {
+    font-style: normal;
+    background-color: #FFFFAD;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #332E30;
+    border-radius: .5rem;
+}
+
+main a {
+    color: #6C6581;
+}
+main a:hover {
+    color: rgb(239,0,24);
+}
+
+
+/* Footer Stuff Here */
+footer {
+    background-color: #A30000;
+    text-align: center;
+    color: white;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+footer a {
+    color: white;
+}
